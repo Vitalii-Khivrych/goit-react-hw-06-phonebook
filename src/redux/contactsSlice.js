@@ -59,7 +59,3 @@ export const persistContactsReducer = persistReducer(
   persistConfig,
   contactsReducer
 );
-
-//selectors
-export const getContactsItems = state => state.contacts.items;
-export const getFilter = state => state.contacts.filter;

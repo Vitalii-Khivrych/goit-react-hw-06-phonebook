@@ -2,7 +2,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { nanoid } from 'nanoid';
 
 import { useLocalStorage } from 'hooks/useLocalStorage';
-import { getContactsItems, addContacts } from 'redux/contactsSlice';
+import { addContacts } from 'redux/contactsSlice';
+import { getContactsItems } from 'redux/selectors';
 import {
   SearchForm,
   SearchLabel,
